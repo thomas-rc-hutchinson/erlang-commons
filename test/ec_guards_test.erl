@@ -3,4 +3,4 @@
 
 is_behaviour_test() ->
     ?assertEqual(true, ec_guards:is_behaviour(supervisor,gen_server)),
-    ?assertEqual(false, ec_guards:is_behaviour(erlang,gen_server))
+    ?assertEqual(false, ec_guards:is_behaviour(erlang,gen_server)).
