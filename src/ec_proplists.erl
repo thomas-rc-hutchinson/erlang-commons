@@ -1,6 +1,10 @@
 -module(ec_proplists).
 -export([get_value/2, get_value/3]).
 
+
+
+    
+
 get_value(Keys,List) ->
     get_value_internal(Keys,List,fun proplists:get_value/2).
 

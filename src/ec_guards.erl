@@ -3,6 +3,4 @@
 
 is_behaviour(Module, Behaviour) ->
     Behaviours = ec_proplists:get_value([attributes,behaviour], Module:module_info(), []),
-    lists:any(fun(B) ->
-		      B =:= Behaviour
-              end, Behaviours).
+    ec_list:contains(Behaviour,Behaviours).
