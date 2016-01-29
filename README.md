@@ -1,10 +1,3 @@
 erlang-commons
-=====
 
-An OTP library
-
-Build
------
-
-    $ rebar3 compile
-# erlang-commons
+A library that contains functions I find myself implementing multiple times across projects.
